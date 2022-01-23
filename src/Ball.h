@@ -2,8 +2,8 @@
 
 #include "Engine.h"
 #include "SDL2/SDL_render.h"
-#include "src/Game.h"
-#include "src/Player.h"
+#include "Game.h"
+#include "Player.h"
 
 
 class Ball: public Object {

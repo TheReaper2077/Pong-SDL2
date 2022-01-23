@@ -2,7 +2,7 @@
 
 #include "Game.h"
 #include "SDL2/SDL_render.h"
-#include "src/Engine.h"
+#include "Engine.h"
 
 class Player: public Object {
 public:
