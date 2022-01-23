@@ -33,6 +33,7 @@ public:
 			float A_Mag = std::sqrt(powf(A.x, 2) + powf(A.y, 2));
 			float B_Mag = std::sqrt(powf(B.x, 2) + powf(B.y, 2));
 			float alpha = std::atan((A.y)/(A.x + B_Mag));
+			
 
 			R.x = speed*cos(alpha);
 			R.y = speed*sin(alpha);
